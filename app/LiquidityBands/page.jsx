@@ -37,7 +37,7 @@ const LiquidityBands =()=>{
                 <option>1 to 10</option>
                 </select>
             </div> 
-            <div className="inline-block rounded bg-[#00000036]">
+            <div className="inline-block lg:block rounded bg-[#00000036]">
             <LineChart/>
               </div>
             
