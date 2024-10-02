@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -45,7 +46,11 @@ export default function Home() {
 
               <textarea className="h-[190px] w-full rounded bg-[#00000036] border border-black" rows="4" cols="50"/>
             
-              <button className="py-2 px-[32px] bg-[#0000004f] border border-black my-5 rounded">CONTINUE</button> 
+            <Link className="inline-block" href="/LiquidityBands">
+              <button className="py-2 px-[32px] bg-[#0000004f] border border-black my-5 rounded">
+                CONTINUE
+                </button>
+            </Link>
           </div> 
         </div>
         <ul className="underline dm-mono text-[15px] flex justify-end gap-7 mt-1">

@@ -1,4 +1,11 @@
+"use client" ;
+import LineChart from '../components/LineChart';
+import Link from 'next/link'
+
+
 const LiquidityBands =()=>{
+   
+
     return <div className="text-white"> 
     <h1 className=" dm-sans text-white text-center text-[72px]">
     [pegasus]
@@ -29,8 +36,11 @@ const LiquidityBands =()=>{
                 <option>1 to 10</option>
                 <option>1 to 10</option>
                 </select>
-            </div>
-            <textarea className="h-[190px] w-full rounded bg-[#00000036] border border-black" rows="4" cols="50"/>
+            </div> 
+            <div className=" rounded bg-[#00000036]">
+            <LineChart/>
+              </div>
+            
 
             <div className="mt-[29px] mb-5 w-[50%]">
               <label className="dm-mono">Set Price Range</label>
@@ -42,10 +52,11 @@ const LiquidityBands =()=>{
             Projected MC for this band: $98,205
             </p>
 
-            <button className="py-2 px-10 bg-[#0000004f] border border-black my-5 rounded">SET BAND 🦄</button> 
+            <button className="py-2 px-10 bg-[#0000004f] border border-black my-5 rounded block">SET BAND 🦄</button> 
 
-          
-            <button className="py-2 px-[32px] bg-[#0000004f] border border-black rounded block">DONE</button> 
+          <Link href="/Launching"  className="inline-block">
+            <button className="py-2 px-[32px] bg-[#0000004f] border border-black rounded">DONE</button> 
+          </Link>
         </div> 
       </div>
       <ul className="underline dm-mono text-[15px] flex justify-end gap-7 mt-1">
