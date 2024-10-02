@@ -14,9 +14,9 @@
 } 
 
 .dm-mono {
-  font-family: "DM Mono", monospace; 
+  font-family: "DM Mono", monospace !important; 
 }
 
 .dm-sans {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif !important;
   }
