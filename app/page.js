@@ -8,19 +8,19 @@ export default function Home() {
       </h1>
       <p className="dm-mono text-[19px] text-white text-center leading-[10px]">BUNDLE YOUR UNIV3 TOKEN</p>
 
-      <div className="w-[975px] mx-auto mt-[23px]">  
-        <p className="dm-mono text-[19px] mb-2">pegasus status: <span className="text-[#DC6CA2]">online</span></p>
-        <div className=" bg-[#291b2282] flex border border-[5px] border-black rounded-[7px]">
-          <div className="pb-5 w-[550px] relative">
-            <div className=" mx-[25px] absolute bottom-5">
+      <div className="lg:w-[975px] mx-auto mt-[23px]">  
+        <p className="dm-mono text-center lg:text-left text-[19px] mb-2">pegasus status: <span className="text-[#DC6CA2]">online</span></p>
+        <div className=" bg-[#291b2282] flex flex-col-reverse  lg:flex-row border border-[5px] border-black rounded-[7px]">
+          <div className="pb-5 lg:w-[550px] relative">
+            <div className=" mx-[25px] pt-5 lg:pt-0 lg:absolute bottom-5">
               <p className="dm-mono text-[15px] pl-2 mb-2"><span className="text-[#DC6CA2]">peg:</span> let’s deploy your coin!</p>
-              <p className="bg-[#00000040] border border-black py-[2px] px-6 rounded text-[19px] dm-mono">pegv1 - [UPDATE PANEL]</p>
+              <p className="bg-[#00000040] border border-black py-[2px] px-6 rounded text-center lg:text-[19px] dm-mono">pegv1 - [UPDATE PANEL]</p>
             </div>
           </div>
-          <div className="bg-[#0000004d] w-full border-0 border-l-[5px] border-black px-[29px] py-[26px]">
+          <div className="bg-[#0000004d] w-full border-0 lg:border-l-[5px] border-black px-[29px] py-[26px]">
             <p className="dm-sans text-[30px]">Token Info</p>
             <p className="text-[14px] dm-mono">Fill info about the coin you want to bundle on V3</p>
-            <div className="grid grid-cols-2 gap-5 mt-[29px]">
+            <div className="grid grid-col-1 md:grid-cols-2 gap-5 mt-[29px]">
               <div>
                 <label className="dm-mono">Token Address</label>
                 <input className="block bg-[#0000004f] border border-black px-3 py-1 rounded w-full" type="text" placeholder="0x420..."/>

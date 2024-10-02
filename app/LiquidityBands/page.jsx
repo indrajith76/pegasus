@@ -12,32 +12,32 @@ const LiquidityBands =()=>{
     </h1>
     <p className="dm-mono text-[19px] text-white text-center leading-[10px]">SET LIQUIDITY BANDS</p>
 
-    <div className="w-[975px] mx-auto mt-[23px]">  
-      <p className="dm-mono text-[19px] mb-2">pegasus status: <span className="text-[#DC6CA2]">online</span></p>
-      <div className=" bg-[#291b2282] flex border border-[5px] border-black rounded-[7px]">
-        <div className="pb-5 w-[550px] relative">
-          <div className=" mx-[25px] absolute bottom-5">
+    <div className="lg:w-[975px] mx-auto mt-[23px]">  
+    <p className="dm-mono text-center lg:text-left text-[19px] mb-2">pegasus status: <span className="text-[#DC6CA2]">online</span></p>
+      <div className=" bg-[#291b2282] flex flex-col-reverse  lg:flex-row border border-[5px] border-black rounded-[7px]">
+      <div className="pb-5 lg:w-[550px] relative">
+        <div className=" mx-[25px] pt-5 lg:pt-0 lg:absolute bottom-5">
             <p className="dm-mono text-[15px] pl-2 mb-2"><span className="text-[#DC6CA2]">peg:</span> let’s deploy your coin!</p>
             <p className="dm-mono text-[15px] pl-2 mb-2"><span className="text-[#DC6CA2]">peg:</span> setup your liquidity bands.</p>
             <p className="dm-mono text-[15px] pl-2 mb-6"><span className="text-[#DC6CA2]">peg: Band 1 has been set!</span> You’ll need 6 ETH to fill it. Projected market cap is $98,205.</p>
-            <p className="bg-[#00000040] border border-black py-[2px] px-6 rounded text-[19px] dm-mono">pegv1 - [UPDATE PANEL]</p>
+            <p className="bg-[#00000040] border border-black py-[2px] px-6 rounded text-center lg:text-[19px] dm-mono">pegv1 - [UPDATE PANEL]</p>
           </div>
         </div>
-        <div className="bg-[#0000004d] w-full border-0 border-l-[5px] border-black px-[29px] py-[26px]">
+        <div className="bg-[#0000004d] w-full border-0 lg:border-l-[5px] border-black px-[29px] py-[26px]">
           <p className="dm-sans text-[30px]">Setup Liquidity Bands</p>
           <p className="text-[14px] dm-mono">Configure V3 liquidity pools here</p>
-          <div className="mt-[29px] mb-5 w-[50%]">
+          <div className="mt-[29px] mb-5 md:w-[50%]">
               <label className="dm-mono">Total Liquidity Bands</label>
               <input className="block bg-[#0000004f] border border-black px-3 py-1 rounded w-full" type="text" placeholder="1 to 10"/>
             </div>
-            <div className="mt-[29px] mb-5 w-[50%]">
+            <div className="mt-[29px] mb-5 md:w-[50%]">
               <label className="dm-mono">Edit Bands</label>
               <select className="block bg-[#0000004f] border border-black px-3 py-1 rounded w-full" type="text">
                 <option>1 to 10</option>
                 <option>1 to 10</option>
                 </select>
             </div> 
-            <div className=" rounded bg-[#00000036]">
+            <div className="inline-block rounded bg-[#00000036]">
             <LineChart/>
               </div>
             

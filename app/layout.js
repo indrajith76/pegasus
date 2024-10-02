@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="background-screen pt-6 pb-10" 
+        className="background-screen pt-6 pb-10 px-5 lg:px-0" 
       >
         {children}
       </body>
